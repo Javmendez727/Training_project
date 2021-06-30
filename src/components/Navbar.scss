@@ -1,0 +1,65 @@
+
+
+  .wrapper {
+    width: calc(100% - 100px);
+    margin: auto;
+    background-image:url('../images/fondo.svg');
+    padding: 50px;
+    display: flex;
+    
+
+    .menu_left{
+      display: flex;
+      z-index: 0;
+      left: 50px;
+      top: 50px;
+      justify-content: flex-start;
+      align-items: center;
+      color:rgb(25, 41, 121);
+
+
+      
+      .t1 {
+          font-family: 'Pacifico', cursive;
+          font-weight: bold;
+          font-size: 60px;
+          line-height: 90px;
+          text-decoration:none;
+          text-align: center;
+          text-shadow: 10px 11px 18px rgb(83, 86, 103);
+          color:rgb(25, 41, 121);
+
+          box-sizing: content-box;
+
+      }
+
+      .menu_position {
+        justify-content: center;  
+        .menu {
+          font-family: 'Lato', sans-serif;
+          font-weight:bolder;
+          font-size: 20px;
+          text-decoration: none;
+          text-transform: uppercase;
+          margin-left: 25px;
+          display: inline-flex;
+          vertical-align: middle;
+          cursor: pointer;
+          letter-spacing: 1px;
+          height: 24px;
+          padding-top: 6px;
+          color:rgb(35, 36, 42);
+          text-shadow: 17px 17px 28px rgb(83, 86, 103);
+
+        }
+      
+      }
+    }
+
+
+   
+  }
+      
+      
+      
+      

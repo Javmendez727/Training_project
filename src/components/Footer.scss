@@ -1,0 +1,41 @@
+.wrapper-pie {
+    background: #001F4F;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 50px;
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .pie {
+            font-size: 15px;
+        }
+        .row {
+            margin-left: -15px;
+            margin-right: -15px;
+            box-sizing: border-box;
+            
+        }
+
+        .piebloque {
+            margin-bottom: 30px;
+        }
+        
+            .col-sm-4 {
+                width: 33.33333333%;
+                color: honeydew;
+                float: left;
+            }
+        
+    }
+
+}
+
+
+
+
+
+
